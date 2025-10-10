@@ -1,0 +1,1 @@
+def say_hello(): print('Hello from module1 inside mypackage)
