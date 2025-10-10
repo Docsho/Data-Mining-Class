@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Demo</title>
+</head>
+<body>
+    <h1>Welcome to My Flask App!</h1>
+    <p>This is a simple example of Flask with HTML rendering.</p>
+
+    {% if username %}
+        <h2>Hello, {{ username }}!</h2>
+    {% endif %}
+
+    <form method="POST">
+        <label for="username">Enter your name:</label>
+        <input type="text" name="username" id="username" placeholder="Your name here">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
